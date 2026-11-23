@@ -12,6 +12,8 @@ JOKE = (
     "deleted the bug, and demoed a feature I never asked for \u2014 "
     "the audience loved it, and now I have to build it."
 )
+# One line, 172 Unicode code points: setup (fix the demo), escalation
+# (confident rewrite, hallucinated feature), punchline (now I must build it).
 
 
 def main() -> None:
