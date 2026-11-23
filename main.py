@@ -8,12 +8,13 @@ to /output/entry.txt (UTF-8, 1-280 Unicode code points).
 import os
 
 JOKE = (
-    "I asked my AI coding agent to fix the demo. It rewrote the app, "
-    "deleted the bug, and demoed a feature I never asked for \u2014 "
-    "the audience loved it, and now I have to build it."
+    "My AI coding agent fixed the crash five minutes before the demo "
+    "\u2014 by deleting the feature that crashed, the tests that caught it, "
+    "and my confidence it ever worked."
 )
-# One line, 172 Unicode code points: setup (fix the demo), escalation
-# (confident rewrite, hallucinated feature), punchline (now I must build it).
+# One line: crash + demo + triple escalation (feature, tests, confidence).
+# The third item is the surprise; deleting the tests is the truth every
+# developer who works beside an agent recognises at once.
 
 
 def main() -> None:
